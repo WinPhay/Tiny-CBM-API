@@ -1,0 +1,29 @@
+{
+  "name": "CBM_API",
+  "version": "1.0.0",
+  "description": "An Api For Myanmar Money Exchange Rate Information",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/WinPhay/CBM_API.git"
+  },
+  "keywords": [
+    "node",
+    "rest",
+    "express",
+    "Central Bank Of Myanmar",
+    "Money Exchange"
+  ],
+  "author": "Saw Win Phay",
+  "license": "MIT",
+  "dependencies": {
+    "express": "latest",
+    "fs": "latest",
+    "path": "latest",
+    "http": "latest"
+  }
+}
